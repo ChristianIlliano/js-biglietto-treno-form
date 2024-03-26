@@ -13,3 +13,18 @@ Solo una volta che il milestone 1 sarà completo e funzionante allora realizzere
 Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo).
 :nota_musicale: Nota:
 Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
+
+### SVOLGIMENTO
+
+1. inserire eventi listner al bottone di invio dati
+al click sul bottone:
+    - RACCOLTA DATI
+    Prendere il valore dei km che vuole percorrere l'utente
+    Prendere il valore dell'età dell'utente
+
+    - ESECUZIONE
+    Definire il prezzo del biglietto in base ai km * 0,21
+    Definire se il passeggero ha diritto ad uno sconto in base all'età
+
+    - OUTPUT
+    D

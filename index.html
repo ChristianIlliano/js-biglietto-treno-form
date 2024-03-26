@@ -6,10 +6,58 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="bg-color">
+    <h1 class="text-align-center main-title p-20"> CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    <div class="container p-20 ">
 
-    
+        <div class="form d-flex gap-20 justify-content-center">
+            <div>
+                <label class="" for="numberKm">Numero Km</label>
+                <br>
+                <input type="text" id="numberKm">
+            </div>
 
+            <div>
+                <label for="user-age">Età passegero</label>
+                <br>
+                <input type="text" id="user-age">
+            </div>
+        </div>
+        <div class=" d-flex gap-20 justify-content-center">
+        <button id="send-btn" class="mt-20">Invia</button>
+        <button href="index.html" class="mt-20">Annulla</button>
+        </div>
+    </div>
+
+    <h1 class="text-align-center main-title p-20"> IL TUO BIGLIETTO </h1>
+
+    <div class="ms_ticket container d-flex">
+        <div class="layout-20-b p-20">
+            <h1 class="secondary-title">Dettagli passeggero</h1>
+            <p class="p-details pt-20">Name: Jon Snow</p>
+        </div>
+
+        <div class="layout-20-w p-20">
+            <h1 class="title-info">Offerta</h1>
+            <p>Biglietto Standard</p>
+            </div>
+
+        <div class="layout-20-w p-20">
+            <h1 class="title-info">Carrozza</h1>
+            <p>5</p>
+            </div>
+
+        <div class="layout-20-w p-20">
+            <h1 class="title-info">Codice CP</h1>
+            <p>92911</p>
+            </div>
+
+        <div class="layout-20-w p-20">
+        <h1 class="title-info">Costo biglietto</h1>
+        <p id="result"></p>
+        </div>
+
+    </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
