@@ -27,6 +27,22 @@ input {
     display: flex;
 }
 
+.border-radius-40 {
+    border-radius: 40px;
+}
+
+.border-tb-l-radius-40 {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.border-tb-r-radius-40 {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+
 .gap-20 {
     gap: 20px;
 }
